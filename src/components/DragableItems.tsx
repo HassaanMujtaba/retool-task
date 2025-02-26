@@ -11,7 +11,6 @@ const DraggableItem = ({ item }: { item: ItemType }) => {
 
   return (
     <div
-      // right now i can't find the type for the ref as am using react dnd
       ref={drag}
       className={`p-3 border rounded-lg cursor-pointer bg-white shadow-md transition-all h-screen${
         isDragging ? "opacity-60 transform scale-95" : "hover:shadow-lg"

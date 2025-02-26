@@ -48,7 +48,6 @@ const Section: React.FC<SectionProps> = ({
         </button>
       </div>
 
-      {/* Grid Layout am using 1 and 2 instead of 6 and 12 */}
       <div
         className={`grid ${
           section.columns === 1 ? "grid-cols-1" : "grid-cols-2"
